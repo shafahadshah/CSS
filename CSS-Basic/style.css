@@ -1,0 +1,96 @@
+/* ============================
+   CSS COMMENTS
+   - This is a comment
+   - Used to explain the code
+============================ */
+
+/* ============================
+   BASIC SELECTORS
+============================ */
+
+/* Element selector */
+p {
+  color: blue;
+}
+
+/* Class selector */
+.box {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+/* ID selector */
+#title {
+  color: red;
+}
+
+/* Group selector */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* Descendant selector */
+.container p {
+  color: purple;
+}
+
+/* Direct child selector */
+.list > li {
+  color: brown;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+  color: orange;
+}
+
+/* Pseudo-class selector */
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   COLOR PROPERTIES
+============================ */
+
+/* HEX color */
+.hex-example {
+  color: #ff5733;
+  background: #fbe3dd;
+}
+
+/* RGB color */
+.rgb-example {
+  color: rgb(0, 128, 255);
+}
+
+/* RGBA (transparent) */
+.rgba-example {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* HSL color */
+.hsl-example {
+  background: hsl(200, 70%, 50%);
+  color: white;
+}
+
+/* Keyword (named color) */
+.named-color {
+  color: teal;
+}
+
+/* Background color example */
+.bg-color {
+  background-color: lightgray;
+}
+
+/* Border color */
+.border-example {
+  border: 2px solid #3498db;
+}
+
+/* Text color */
+.text-example {
+  color: #2ecc71;
+}
