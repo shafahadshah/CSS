@@ -1,0 +1,116 @@
+/* ========================================
+   BACKGROUND COLOR PROPERTY
+======================================== */
+
+.bg-light {
+  background-color: #f2f2f2; /* HEX */
+}
+
+.bg-blue {
+  background-color: rgb(30, 144, 255); /* RGB */
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.2); /* RGBA */
+}
+
+.bg-hsl {
+  background-color: hsl(200, 70%, 50%); /* HSL */
+}
+
+/* Named color */
+.bg-named {
+  background-color: tomato;
+}
+
+/* ========================================
+   COLOR SYSTEM (text color)
+======================================== */
+
+.text-hex {
+  color: #ff5733;
+}
+
+.text-rgb {
+  color: rgb(0, 120, 255);
+}
+
+.text-rgba {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.text-hsl {
+  color: hsl(140, 80%, 35%);
+}
+
+.text-named {
+  color: teal;
+}
+
+/* ========================================
+   ABSOLUTE UNITS (px, cm, mm, in)
+======================================== */
+
+.box-px {
+  width: 200px;
+  height: 100px;
+  background: lightblue;
+}
+
+.box-cm {
+  width: 5cm;
+  height: 2cm;
+  background: lightgreen;
+}
+
+.box-mm {
+  width: 50mm;
+  height: 20mm;
+  background: lightpink;
+}
+
+.box-in {
+  width: 2in;
+  height: 1in;
+  background: lightyellow;
+}
+
+/* ========================================
+   HEIGHT & WIDTH PROPERTY
+======================================== */
+
+.hw-box {
+  width: 150px;
+  height: 150px;
+  background: #ddd;
+  border: 1px solid #aaa;
+}
+
+/* ========================================
+   BACKGROUND IMAGE PROPERTY
+======================================== */
+
+.bg-img {
+  background-image: url('pic.png');
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #000;
+}
+
+/* ========================================
+   VISIBILITY PROPERTY
+======================================== */
+
+.visible-box {
+  visibility: visible; /* default */
+  background: lightgreen;
+  padding: 10px;
+}
+
+.hidden-box {
+  visibility: hidden;
+  background: lightcoral;
+  padding: 10px;
+}
