@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Rows for property & example */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.property {
+    width: 40%;
+    font-weight: bold;
+    color: #444;
+}
+
+.example {
+    width: 55%;
+    background: #fafafa;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
