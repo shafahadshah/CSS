@@ -1,0 +1,82 @@
+/* Base box style */
+.box {
+    width: 250px;
+    background-color: #add8e6;
+    font-size: 18px;
+    margin-bottom: 20px;       /* space between examples */
+    color: #000;
+}
+
+/* -------------------------
+      PADDING EXAMPLES
+------------------------- */
+
+/* Small padding */
+.small-padding {
+    padding: 10px;
+    background-color: #90ee90; /* light green */
+}
+
+/* Medium padding */
+.medium-padding {
+    padding: 25px;
+    background-color: #ffa07a; /* light salmon */
+}
+
+/* Large padding */
+.large-padding {
+    padding: 40px;
+    background-color: #ffeb3b; /* yellow */
+}
+
+
+/* -------------------------
+      MARGIN EXAMPLES
+------------------------- */
+
+/* Small margin */
+.small-margin {
+    margin: 10px;
+    padding: 20px;
+    background-color: #87cefa; /* sky blue */
+}
+
+/* Medium margin */
+.medium-margin {
+    margin: 30px;
+    padding: 20px;
+    background-color: #dda0dd; /* plum */
+}
+
+/* Large margin */
+.large-margin {
+    margin: 50px;
+    padding: 20px;
+    background-color: #f4a460; /* sandy brown */
+}
+
+
+/* -------------------------
+      BORDER EXAMPLES
+------------------------- */
+
+/* Thin border */
+.thin-border {
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #ffcccb; /* light red */
+}
+
+/* Medium border */
+.medium-border {
+    padding: 20px;
+    border: 6px solid #333;
+    background-color: #98fb98; /* pale green */
+}
+
+/* Thick border */
+.thick-border {
+    padding: 20px;
+    border: 12px solid #222;
+    background-color: #afeeee; /* pale turquoise */
+}
