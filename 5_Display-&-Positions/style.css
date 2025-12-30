@@ -1,0 +1,67 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Relative units */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem; /* base size */
+}
+
+/* Position property */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+
+/* Display property */
+.header nav {
+  display: flex;
+  gap: 1.5em;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive container */
+.container {
+  display: flex;
+  gap: 2%;
+  padding: 2rem;
+}
+
+/* Cards */
+.card {
+  background-color: #f4f4f4;
+  padding: 1.5em;
+  width: 30%;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #222;
+  color: white;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
