@@ -1,0 +1,73 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+/* ----------------------------
+   1. PSEUDO-CLASSES
+----------------------------- */
+.btn {
+  padding: 10px 20px;
+  background: steelblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+/* hover pseudo-class */
+.btn:hover {
+  background: darkblue;
+}
+
+/* active pseudo-class */
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* ----------------------------
+   2. TRANSITION + TRANSFORM
+----------------------------- */
+.box {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 40px;
+
+  /* transition */
+  transition: all 0.5s ease;
+}
+
+/* transform on hover */
+.box:hover {
+  transform: rotate(45deg) scale(1.2);
+  background: tomato;
+}
+
+/* ----------------------------
+   3. CSS ANIMATION
+----------------------------- */
+.circle {
+  width: 80px;
+  height: 80px;
+  background: green;
+  border-radius: 50%;
+
+  animation: moveCircle 2s infinite alternate;
+}
+
+/* keyframes */
+@keyframes moveCircle {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
